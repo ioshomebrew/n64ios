@@ -19,10 +19,10 @@
 # *   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.          *
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-VERSION = 3.0
-JAILBREAKDIR = ./dev
-LLVMFILE = 
-TOOLVER = 4.0.3
+VERSION = 5.1
+JAILBREAKDIR = 
+LLVMFILE = llvm-
+TOOLVER = 4.2
 
 CFLAGS = -F/Applications/Xcode.app/Contents/Developer/$(JAILBREAKDIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS${VERSION}.sdk/System/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/$(JAILBREAKDIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS${VERSION}.sdk/System/Library/PrivateFrameworks -I./ -I../../ -I../../Ads -isysroot /Applications/Xcode.app/Contents/Developer/$(JAILBREAKDIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS${VERSION}.sdk -L/Applications/Xcode.app/Contents/Developer/$(JAILBREAKDIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS${VERSION}.sdk/usr/lib  
 

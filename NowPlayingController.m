@@ -12,8 +12,8 @@
 #include <mach/mach_port.h>
 
 #import <CoreSurface/CoreSurface.h>
-#import "IOKit/IOTypes.h"
-#import "IOKit/IOKitLib.h"
+// #import "IOKit/IOTypes.h"
+// #import "IOKit/IOKitLib.h"
 
 #include <stdio.h> // For mprotect
 #include <sys/mman.h>
